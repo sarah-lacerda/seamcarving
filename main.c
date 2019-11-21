@@ -173,8 +173,6 @@ void keyboard(unsigned char key, int x, int y)
         for(int i = 0; i < pic[2].height * pic[2].width; i++)
             pic[2].img[i] = pic[0].img[i];
 
-
-
         /* for(int i = 0; i < pic[1].height * pic[1].width; i++) {
             maskAux[i].r = pic[1].img[i].r;
             maskAux[i].g = pic[1].img[i].g;
